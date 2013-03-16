@@ -1,0 +1,11 @@
+diff -ruN OpenCV-2.4.4/3rdparty/tbb/CMakeLists.txt OpenCV-2.4.4-macosx/3rdparty/tbb/CMakeLists.txt
+--- OpenCV-2.4.4/3rdparty/tbb/CMakeLists.txt	2013-02-12 07:55:16.000000000 +0900
++++ OpenCV-2.4.4-macosx/3rdparty/tbb/CMakeLists.txt	2013-03-03 15:53:14.976128292 +0900
+@@ -126,7 +126,6 @@
+                 -D__TBB_BUILD=1                        #required
+                 -D__TBB_SURVIVE_THREAD_SWITCH=0        #no cilk support
+                 -DUSE_PTHREAD                          #required for Unix
+-                -DTBB_USE_GCC_BUILTINS=1               #required for ARM GCC
+                 -DTBB_USE_DEBUG=0                      #just to be sure
+                 -DTBB_NO_LEGACY=1                      #don't need backward compatibility
+                 -DDO_ITT_NOTIFY=0                      #it seems that we don't need these notifications

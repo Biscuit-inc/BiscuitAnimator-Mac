@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Frames per Second</comment>
+<entry key="Width">1280</entry>
+<entry key="Video file Format">.wmv</entry>
+<entry key="fps">15</entry>
+<entry key="Height">720</entry>
+</properties>

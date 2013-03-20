@@ -45,7 +45,7 @@ public class CanonCamera implements EdsObjectEventHandler {
     private static final Map<String, Integer> options = new HashMap<String, Integer>();
 
     // This gives you direct access to the EDSDK
-    public static EdSdkLibrary EDSDK = (EdSdkLibrary) Native.loadLibrary("FrameWork Path Here", EdSdkLibrary.class, options);
+    public static EdSdkLibrary EDSDK = (EdSdkLibrary) Native.loadLibrary("Macintosh/EDSDK_64/EDSDK.framework/Versions/A/EDSDK.framework", EdSdkLibrary.class, options);
     //private static final HMODULE hMod = Kernel32.INSTANCE.GetModuleHandle("");
     // The queue of commands that need to be run.
     private static ConcurrentLinkedQueue<CanonTask<?>> queue = new ConcurrentLinkedQueue<CanonTask<?>>();

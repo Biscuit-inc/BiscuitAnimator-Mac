@@ -43,11 +43,11 @@ public class Canon extends JFrame {
         gbc.insets = new Insets(3, 3, 3, 3);
         gbc.gridy = 1;
 
-//        addCombobox(content, gbc, "White Balance", "WB_", new Callback() {
-//            public void call(int value) {
-//                Controls.camera.setProperty(kEdsPropID_WhiteBalance, value);
-//            }
-//        });
+        addCombobox(content, gbc, "White Balance", "WB_", new Callback() {
+            public void call(int value) {
+                Controls.camera.setProperty(kEdsPropID_WhiteBalance, value);
+            }
+        });
         addCombobox(content, gbc, "Shutter Speed", "Speed_", new Callback() {
             public void call(int value) {
                 Controls.camera.setProperty(kEdsPropID_Tv, value);

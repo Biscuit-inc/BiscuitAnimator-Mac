@@ -2,6 +2,11 @@ package edsdk.utils;
 
 public interface CanonConstants {
 
+    public final static int WB_Auto = 0x0;
+    public final static int WB_Daylight = 0x1;
+    public final static int WB_Cloudy = 0x2;
+    public final static int WB_Tungsten = 0x3;
+    public final static int WB_Fluorescent = 0x4;
     public final static int F_1 = 0x08;
     public final static int F_1_1 = 0x0B;
     public final static int F_1_2 = 0x0C;

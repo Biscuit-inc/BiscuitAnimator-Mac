@@ -51,5 +51,7 @@
 		<integer>12356</integer>
 		<integer>12545</integer>
 	</array>
+	<key>ICC Threshold version</key>
+	<integer>303</integer>
 </dict>
 </plist>

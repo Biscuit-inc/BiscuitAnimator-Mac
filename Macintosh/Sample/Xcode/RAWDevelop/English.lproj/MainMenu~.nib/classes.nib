@@ -1,0 +1,128 @@
+{
+    IBClasses = (
+        {
+            CLASS = AFFramePanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"m_AFFramePanel" = id; "m_AFFrameView" = id; "m_EDSDKController" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                onBtnImageSource = id; 
+                onBtnInputFile = id; 
+                onCheckShowAFFrame = id; 
+                onClickImage = id; 
+                onTxtImgH = id; 
+                onTxtImgW = id; 
+                onTxtImgX = id; 
+                onTxtImgY = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "m_AFFramePanelController" = id; 
+                "m_EDSDKController" = id; 
+                "m_ProcessPageController" = id; 
+                "m_PropertyManager" = id; 
+                "m_cmbWhiteBalance" = id; 
+                "m_idcProcessProgress" = id; 
+                "m_mainWindow" = id; 
+                "m_txtImgH" = id; 
+                "m_txtImgW" = id; 
+                "m_txtImgX" = id; 
+                "m_txtImgY" = id; 
+                "m_txtInputFile" = id; 
+                "m_viewImage" = id; 
+                "m_viewInformationText" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ClickImageView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"m_appController" = id; }; 
+            SUPERCLASS = NSImageView; 
+        }, 
+        {CLASS = CtrlPanelSheet; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = EDSDKController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyAFFrameView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = MyImageView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"m_appController" = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = MyWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                onBtnAtCapColorSpace = id; 
+                onBtnAtCapDigitalExposure = id; 
+                onBtnAtCapPictureStyle = id; 
+                onBtnAtCapWhiteBalance = id; 
+                onBtnClickWB = id; 
+                onBtnReflect = id; 
+                onChkUseCache = id; 
+                onCmbColorSpace = id; 
+                onCmbFilterEffect = id; 
+                onCmbPictureStyle = id; 
+                onCmbToningEffect = id; 
+                onCmbWhiteBalance = id; 
+                onSldColorTone = id; 
+                onSldContrast = id; 
+                onSldDigitalExposure = id; 
+                onSldSaturation = id; 
+                onSldSharpness = id; 
+                onSldWBShiftAB = id; 
+                onSldWBShiftMG = id; 
+                onTxtKelvin = id; 
+            }; 
+            CLASS = ProcessPageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "m_EDSDKController" = id; 
+                "m_btnClickWB" = id; 
+                "m_cmbColorSpace" = id; 
+                "m_cmbFilterEffect" = id; 
+                "m_cmbPictureStyle" = id; 
+                "m_cmbToningEffect" = id; 
+                "m_cmbWhiteBalance" = id; 
+                "m_sldColorTone" = id; 
+                "m_sldContrast" = id; 
+                "m_sldDigitalExposure" = id; 
+                "m_sldSaturation" = id; 
+                "m_sldSharpness" = id; 
+                "m_sldWBShiftAB" = id; 
+                "m_sldWBShiftMG" = id; 
+                "m_txtColorTone" = id; 
+                "m_txtContrast" = id; 
+                "m_txtDigitalExposure" = id; 
+                "m_txtKelvin" = id; 
+                "m_txtSaturation" = id; 
+                "m_txtSharpness" = id; 
+                "m_txtWBShiftAB" = id; 
+                "m_txtWBShiftMG" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PropertyManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"m_EDSDKController" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {onBtnColorProfile = id; onBtnSave = id; onCmbSaveType = id; }; 
+            CLASS = SavePageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "m_EDSDKController" = id; 
+                "m_cmbJPEGQuality" = id; 
+                "m_cmbSaveType" = id; 
+                "m_txtColorProfile" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

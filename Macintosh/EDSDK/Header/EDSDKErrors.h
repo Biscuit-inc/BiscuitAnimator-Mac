@@ -186,6 +186,7 @@
 #define EDS_ERR_LOW_BATTERY                                 0x0000A101
 #define EDS_ERR_OBJECT_NOTREADY                             0x0000A102
 #define EDS_ERR_CANNOT_MAKE_OBJECT                          0x0000A104
+#define EDS_ERR_MEMORYSTATUS_NOTREADY                       0x0000A106
 
 /* Take Picture errors */ 
 #define EDS_ERR_TAKE_PICTURE_AF_NG                          0x00008D01L
@@ -198,6 +199,8 @@
 #define EDS_ERR_TAKE_PICTURE_CARD_PROTECT_NG                0x00008D08L
 #define EDS_ERR_TAKE_PICTURE_MOVIE_CROP_NG                  0x00008D09L
 #define EDS_ERR_TAKE_PICTURE_STROBO_CHARGE_NG               0x00008D0AL
+#define EDS_ERR_TAKE_PICTURE_NO_LENS_NG                     0x00008D0BL
+#define EDS_ERR_TAKE_PICTURE_SPECIAL_MOVIE_MODE_NG          0x00008D0CL
 
 
 #define EDS_ERR_LAST_GENERIC_ERROR_PLUS_ONE                 0x000000F5L

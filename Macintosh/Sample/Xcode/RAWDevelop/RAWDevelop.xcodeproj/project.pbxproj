@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1B111809A77C9E00D4D65B /* click_off.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5C1B111609A77C9D00D4D65B /* click_off.tif */; };
+		5C1B111909A77C9E00D4D65B /* click_on.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5C1B111709A77C9D00D4D65B /* click_on.tif */; };
+		5C1BEB6F09A866BC00A945C2 /* cur_click.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5C1BEB6E09A866BC00A945C2 /* cur_click.tif */; };
+		61822CCA0E417BBF00633F12 /* PropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CC80E417BBF00633F12 /* PropertyManager.m */; };
+		61DA8D1D0E41374500DD48D9 /* AFFramePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA8D1B0E41374500DD48D9 /* AFFramePanelController.m */; };
+		61DA8D2D0E41395A00DD48D9 /* MyAFFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA8D2B0E41395A00DD48D9 /* MyAFFrameView.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AF56039E0F2879D700966773 /* DPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF56039D0F2879D700966773 /* DPP.framework */; };
+		AF5603A70F287A4200966773 /* DPP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF56039D0F2879D700966773 /* DPP.framework */; };
+		DF6698E709C9353D007120B6 /* EDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6698E609C9353D007120B6 /* EDSDK.framework */; };
+		DF6698F209C93577007120B6 /* EDSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF6698E609C9353D007120B6 /* EDSDK.framework */; };
+		DF8852FC09D122A300D8F564 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852F409D122A300D8F564 /* MyImageView.m */; };
+		DF8852FD09D122A300D8F564 /* ProcessPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852F509D122A300D8F564 /* ProcessPageController.m */; };
+		DF8852FE09D122A300D8F564 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852F609D122A300D8F564 /* MyWindow.m */; };
+		DF8852FF09D122A300D8F564 /* CtrlPanelSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852F709D122A300D8F564 /* CtrlPanelSheet.m */; };
+		DF88530009D122A300D8F564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852F809D122A300D8F564 /* main.m */; };
+		DF88530109D122A300D8F564 /* SavePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852F909D122A300D8F564 /* SavePageController.m */; };
+		DF88530309D122A300D8F564 /* EDSDKController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8852FB09D122A300D8F564 /* EDSDKController.m */; };
+		DF88531509D1232D00D8F564 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88531409D1232D00D8F564 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF6698EF09C93552007120B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AF5603A70F287A4200966773 /* DPP.framework in CopyFiles */,
+				DF6698F209C93577007120B6 /* EDSDK.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5C1B111609A77C9D00D4D65B /* click_off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = click_off.tif; path = Resources/click_off.tif; sourceTree = "<group>"; };
+		5C1B111709A77C9D00D4D65B /* click_on.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = click_on.tif; path = Resources/click_on.tif; sourceTree = "<group>"; };
+		5C1BEB6E09A866BC00A945C2 /* cur_click.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = cur_click.tif; path = Resources/cur_click.tif; sourceTree = "<group>"; };
+		61822CC80E417BBF00633F12 /* PropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = PropertyManager.m; path = src/PropertyManager.m; sourceTree = "<group>"; };
+		61DA8D1B0E41374500DD48D9 /* AFFramePanelController.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = AFFramePanelController.m; path = src/AFFramePanelController.m; sourceTree = "<group>"; };
+		61DA8D2B0E41395A00DD48D9 /* MyAFFrameView.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = MyAFFrameView.m; path = src/MyAFFrameView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* RAWDevelop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAWDevelop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF56039D0F2879D700966773 /* DPP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DPP.framework; path = ../../../EDSDK/Framework/DPP.framework; sourceTree = SOURCE_ROOT; };
+		DF6698E609C9353D007120B6 /* EDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EDSDK.framework; path = ../../../EDSDK/Framework/EDSDK.framework; sourceTree = SOURCE_ROOT; };
+		DF8852F409D122A300D8F564 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = MyImageView.m; path = src/MyImageView.m; sourceTree = "<group>"; };
+		DF8852F509D122A300D8F564 /* ProcessPageController.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = ProcessPageController.m; path = src/ProcessPageController.m; sourceTree = "<group>"; };
+		DF8852F609D122A300D8F564 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = MyWindow.m; path = src/MyWindow.m; sourceTree = "<group>"; };
+		DF8852F709D122A300D8F564 /* CtrlPanelSheet.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = CtrlPanelSheet.m; path = src/CtrlPanelSheet.m; sourceTree = "<group>"; };
+		DF8852F809D122A300D8F564 /* main.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		DF8852F909D122A300D8F564 /* SavePageController.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = SavePageController.m; path = src/SavePageController.m; sourceTree = "<group>"; };
+		DF8852FB09D122A300D8F564 /* EDSDKController.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = EDSDKController.m; path = src/EDSDKController.m; sourceTree = "<group>"; };
+		DF88531409D1232D00D8F564 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = src/AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				DF6698E709C9353D007120B6 /* EDSDK.framework in Frameworks */,
+				AF56039E0F2879D700966773 /* DPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF56039D0F2879D700966773 /* DPP.framework */,
+				DF6698E609C9353D007120B6 /* EDSDK.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* RAWDevelop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DevelopUI */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DevelopUI;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DF88531409D1232D00D8F564 /* AppController.m */,
+				DF8852F409D122A300D8F564 /* MyImageView.m */,
+				DF8852F509D122A300D8F564 /* ProcessPageController.m */,
+				DF8852F609D122A300D8F564 /* MyWindow.m */,
+				DF8852F709D122A300D8F564 /* CtrlPanelSheet.m */,
+				DF8852F809D122A300D8F564 /* main.m */,
+				DF8852F909D122A300D8F564 /* SavePageController.m */,
+				DF8852FB09D122A300D8F564 /* EDSDKController.m */,
+				61DA8D1B0E41374500DD48D9 /* AFFramePanelController.m */,
+				61DA8D2B0E41395A00DD48D9 /* MyAFFrameView.m */,
+				61822CC80E417BBF00633F12 /* PropertyManager.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C1BEB6B09A866B100A945C2 /* cursor */,
+				5C1B111609A77C9D00D4D65B /* click_off.tif */,
+				5C1B111709A77C9D00D4D65B /* click_on.tif */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C1BEB6B09A866B100A945C2 /* cursor */ = {
+			isa = PBXGroup;
+			children = (
+				5C1BEB6E09A866BC00A945C2 /* cur_click.tif */,
+			);
+			name = cursor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* RAWDevelop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE821CF0BFBF45B0065CACE /* Build configuration list for PBXNativeTarget "RAWDevelop" */;
+			buildPhases = (
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				8D1107290486CEB800E47090 /* Resources */,
+				DF6698EF09C93552007120B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAWDevelop;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DevelopUI;
+			productReference = 8D1107320486CEB800E47090 /* RAWDevelop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5CE821D30BFBF45B0065CACE /* Build configuration list for PBXProject "RAWDevelop" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DevelopUI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* RAWDevelop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				5C1B111809A77C9E00D4D65B /* click_off.tif in Resources */,
+				5C1B111909A77C9E00D4D65B /* click_on.tif in Resources */,
+				5C1BEB6F09A866BC00A945C2 /* cur_click.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8852FC09D122A300D8F564 /* MyImageView.m in Sources */,
+				DF8852FD09D122A300D8F564 /* ProcessPageController.m in Sources */,
+				DF8852FE09D122A300D8F564 /* MyWindow.m in Sources */,
+				DF8852FF09D122A300D8F564 /* CtrlPanelSheet.m in Sources */,
+				DF88530009D122A300D8F564 /* main.m in Sources */,
+				DF88530109D122A300D8F564 /* SavePageController.m in Sources */,
+				DF88530309D122A300D8F564 /* EDSDKController.m in Sources */,
+				DF88531509D1232D00D8F564 /* AppController.m in Sources */,
+				61DA8D1D0E41374500DD48D9 /* AFFramePanelController.m in Sources */,
+				61DA8D2D0E41395A00DD48D9 /* MyAFFrameView.m in Sources */,
+				61822CCA0E417BBF00633F12 /* PropertyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE821D00BFBF45B0065CACE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = ../../../EDSDK/Framework;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RAWDevelop_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = __MACOS__;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/src",
+					../../../EDSDK/Header,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../EDSDK/Header\"";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = RAWDevelop;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		5CE821D10BFBF45B0065CACE /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/../../../EDSDK/Framework";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RAWDevelop_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = __MACOS__;
+				GCC_VERSION_ppc = 3.3;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../../EDSDK/Header";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				PREBINDING = NO;
+				PRODUCT_NAME = RAWDevelop;
+				SDKROOT = macosx;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.3.9.sdk;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5CE821D40BFBF45B0065CACE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				FRAMEWORK_SEARCH_PATHS = ../../../EDSDK/Framework;
+				HEADER_SEARCH_PATHS = ../../../EDSDK/Header;
+			};
+			name = Development;
+		};
+		5CE821D50BFBF45B0065CACE /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				FRAMEWORK_SEARCH_PATHS = ../../../EDSDK/Framework;
+				HEADER_SEARCH_PATHS = ../../../EDSDK/Header;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE821CF0BFBF45B0065CACE /* Build configuration list for PBXNativeTarget "RAWDevelop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE821D00BFBF45B0065CACE /* Development */,
+				5CE821D10BFBF45B0065CACE /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5CE821D30BFBF45B0065CACE /* Build configuration list for PBXProject "RAWDevelop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE821D40BFBF45B0065CACE /* Development */,
+				5CE821D50BFBF45B0065CACE /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
